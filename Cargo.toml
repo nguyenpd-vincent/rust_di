@@ -1,0 +1,15 @@
+[package]
+name = "rust_di"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4.0"
+dotenv = "0.15"
+env_logger = "0.11.5"
+log = "0.4.22"
+async-trait = "0.1.83"
+serde = { version = "1.0.215", features = ["derive"] }
+diesel = { version = "2.2.6", features = ["r2d2", "mysql"] }
+http = "1.2.0"
+mysql = "25.0.1"
